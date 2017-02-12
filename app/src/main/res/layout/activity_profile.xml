@@ -29,28 +29,32 @@
             android:scaleType="fitXY"
             android:src="@drawable/heart"
             android:id="@+id/button1"
-            android:layout_margin="@dimen/profile_margins"/>
+            android:layout_margin="@dimen/profile_margins"
+            android:onClick="heart"/>
         <ImageButton
             android:layout_width="@dimen/image_button_width"
             android:layout_height="@dimen/image_button_height"
             android:scaleType="fitXY"
             android:id="@+id/button2"
             android:src="@drawable/mail"
-            android:layout_margin="@dimen/profile_margins"/>
+            android:layout_margin="@dimen/profile_margins"
+            android:onClick="mail"/>
         <ImageButton
             android:layout_width="@dimen/image_button_width"
             android:layout_height="@dimen/image_button_height"
             android:scaleType="fitXY"
             android:id="@+id/button3"
             android:src="@drawable/contacts"
-            android:layout_margin="@dimen/profile_margins"/>
+            android:layout_margin="@dimen/profile_margins"
+            android:onClick="contacts"/>
         <ImageButton
             android:layout_width="@dimen/image_button_width"
             android:layout_height="@dimen/image_button_height"
             android:scaleType="fitXY"
             android:id="@+id/button4"
             android:src="@drawable/logout"
-            android:layout_margin="@dimen/profile_margins"/>
+            android:layout_margin="@dimen/profile_margins"
+            android:onClick="logout"/>
     </LinearLayout>
 
     <LinearLayout

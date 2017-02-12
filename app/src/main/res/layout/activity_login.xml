@@ -20,12 +20,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/password"
-        android:hint="@string/password"/>
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/submit"/>
+        android:id="@+id/submit"
+        android:text="@string/submit"
+        android:onClick="login"/>
 
 
 </LinearLayout>

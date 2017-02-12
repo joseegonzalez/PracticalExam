@@ -7,4 +7,5 @@
     <string name="button2">button 2</string>
     <string name="button3">button 3</string>
     <string name="button4">Logout</string>
+    <string name="integer_place">Setting -</string>
 </resources>

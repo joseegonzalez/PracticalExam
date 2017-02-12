@@ -17,7 +17,7 @@ public class SettingsHolder extends RecyclerView.ViewHolder {
         settingsInteger = (TextView) itemView.findViewById(R.id.tvinteger);
     }
 
-    public void bind(){
+    public void bind() {
         settingsInteger.setText("Setting - " + getAdapterPosition());
     }
 

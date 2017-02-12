@@ -8,4 +8,5 @@
     <dimen name="image_button_height">60dp</dimen>
     <dimen name="profile_margins">10dp</dimen>
     <dimen name="empty_space">200dp</dimen>
+    <dimen name="nav_image">40dp</dimen>
 </resources>
